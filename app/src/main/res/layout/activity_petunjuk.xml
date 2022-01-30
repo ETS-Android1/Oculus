@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@android:color/darker_gray"
+    tools:context=".PetunjukActiviy">
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="173dp"
+        android:layout_height="293dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/prota" />
+
+    <ScrollView
+        android:id="@+id/scrollView4"
+        android:layout_width="344dp"
+        android:layout_height="265dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginTop="16dp"
+            android:text="1. Klik tombol mulai tes untuk memulai tes"
+            android:textColor="@android:color/black"
+            android:textSize="14dp"
+            app:layout_constraintEnd_toEndOf="@+id/scrollView4"
+            app:layout_constraintHorizontal_bias="0.093"
+            app:layout_constraintStart_toStartOf="@+id/scrollView4"
+            app:layout_constraintTop_toTopOf="@+id/scrollView4" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="337dp"
+            android:layout_height="41dp"
+            android:text="2. Perhatikan pola yang terdapat pada gambar yang ditampilkan"
+            android:textColor="@android:color/black"
+            app:layout_constraintEnd_toEndOf="@+id/scrollView4"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/scrollView4"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="337dp"
+            android:layout_height="41dp"
+            android:text="3. Pilih salah satu jawaban yang menurut Anda benar dengan klik tombol yang disediakan"
+            android:textColor="@android:color/black"
+            app:layout_constraintEnd_toEndOf="@+id/scrollView4"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/scrollView4"
+            app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="337dp"
+            android:layout_height="37dp"
+            android:text="4. Klik tanda panah di sebelah kanan untuk menjawab pertanyaan selanjutnya "
+            android:textColor="@android:color/black"
+            app:layout_constraintEnd_toEndOf="@+id/scrollView4"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/scrollView4"
+            app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="337dp"
+            android:layout_height="38dp"
+            android:text="5. Anda dapat melihat progress yang anda lakukan pada progress bar di bagian atas"
+            android:textColor="@android:color/black"
+            app:layout_constraintEnd_toEndOf="@+id/scrollView4"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/scrollView4"
+            app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="337dp"
+            android:layout_height="38dp"
+            android:text="6. Setelah menjawab semua soal, hasil tes akan ditampilkan"
+            android:textColor="@android:color/black"
+            app:layout_constraintEnd_toEndOf="@+id/scrollView4"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/scrollView4"
+            app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="337dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="8dp"
+            android:text="7. Anda dapat mencetak hasil tes dalam bentuk pdf dengan klik tombol unduh"
+            android:textColor="@android:color/black"
+            app:layout_constraintEnd_toEndOf="@+id/scrollView4"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/scrollView4"
+            app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

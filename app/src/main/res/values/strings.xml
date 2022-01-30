@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Oculus</string>
+    <string name="oculus">Oculus</string>
+    <string name="front">Tahukah Anda ? Setidaknya, 0,5 persen wanita dan 8 persen pria menderita buta warna. Apakah Anda salah satunya ? Let\'s Check It Out !</string>
+    <string name="tidak_ada_apapun">Tidak ada apapun</string>
+    <string name="info">Informasi</string>
+    <string name="definisi">Apa itu buta warna?</string>
+    <string name="isi_definisi">\t\t Buta warna adalah kondisi di mana kualitas penglihatan terhadap warna berkurang. Seseorang yang menderita penyakit ini akan sulit membedakan warna tertentu atau bahkan seluruh warna. </string>
+    <string name="penyebab">Apa penyebab buta warna?</string>
+    <string name="isi_penyebab">\t\t Sebagian besar kasus buta warna diturunkan secara genetik dari orang tua ke anaknya. Beberapa penyebab buta warna, diantaranya:</string>
+    <string name="jenis">Jenis-jenis buta warna</string>
+    <string name="isi_jenis">\t\t Pada dasarnya buta warna terbagi menjadi tiga tipe, yaitu:</string>
+    <string name="mengatasi">\t\t Kelainan penglihatan berupa buta warna yang diwariskan tidak dapat diobati atau diperbaiki. Namun, Anda dapat menemukan beberapa cara mengatasi buta warna, misalnya:</string>
+    <string name="isi_gejala1">\t\t Beberapa karakter yang dialami oleh penderita buta warna merah-hijau adalah : \n
+        1. Warna kuning dan hijau terlihat memerah. \n
+        2. Oranye, merah, dan kuning terlihat seperti hijau. \n
+        3. Merah terlihat seperti hitam. \n
+        4. Merah terlihat kuning kecokelatan, dan hijau terlihat seperti warna krem.</string>
+    <string name="isi_gejala2">\t\t Beberapa karakter yang dialami oleh penderita buta warna biru-kuning adalah :\n
+        1. Biru terlihat kehijauan, serta sulit membedakan merah muda dengan kuning dan merah. \n
+        2. Biru terlihat seperti hijau, dan kuning terlihat seperti abu-abu atau ungu terang.</string>
+    <string name="isi_gejala3">\t\t Seseorang yang menderita tipe buta warna total mengalami kesulitan membedakan semua warna. Bahkan beberapa penderitanya hanya dapat melihat warna putih, abu-abu, dan hitam.</string>
+
+</resources>

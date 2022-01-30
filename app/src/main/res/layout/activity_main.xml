@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="213dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/segoeui"
+        android:text="@string/front"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/oculusTv" />
+
+    <Button
+        android:id="@+id/petunjukBtn"
+        android:layout_width="262dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/petunjukbtn"
+        android:onClick="petunjuk"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/mulaiBtn"
+        android:layout_width="261dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/mulaibtn"
+        android:onClick="tes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/petunjukBtn" />
+
+    <Button
+        android:id="@+id/tentangBtn"
+        android:layout_width="256dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/tentangbtn"
+        android:onClick="tentang"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mulaiBtn" />
+
+    <TextView
+        android:id="@+id/oculusTv"
+        android:layout_width="177dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/vivaldi"
+        android:text="@string/oculus"
+        android:textSize="50sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gambarIv" />
+
+    <ImageView
+        android:id="@+id/gambarIv"
+        android:layout_width="85dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/eye" />
+
+
+</android.support.constraint.ConstraintLayout>
